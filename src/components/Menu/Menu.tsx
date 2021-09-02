@@ -565,7 +565,7 @@ class Menu extends React.Component<Props, State> {
                   }
                 >
                   {(scrollableMenuHeight && (
-                    <ScrollView>{children}</ScrollView>
+                    <ScrollView persistentScrollbar>{children}</ScrollView>
                   )) || <React.Fragment>{children}</React.Fragment>}
                 </Surface>
               </Animated.View>
